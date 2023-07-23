@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>From</title>
+</head>
+<body>
+    <h2>Form  for the Application</h2>
+    <p>Fill the every input </p>
+
+    <div class="form-layout">
+        <form action="https://www.facebook.com/" target="_blank"  class="main-form">
+
+            <label for="userName" > User Name</label> 
+            <input class="input-filed" type="text" name="" id="userName" placeholder=" Enter Your Name" required> 
+    
+            <label for="email">User Email</label>
+            <input class="input-filed" type="email" name="" id="email" placeholder="Enter Your Email" required> 
+    
+            <label for="phone">User Phone Number</label>
+            <input class="input-filed" type="number" name="" id="phone" placeholder="Enter Your phone Number" required> 
+    
+            <label for="option">User Option</label> 
+            <div  >
+                <select   class="input-filed" name="option" id="option" >
+                    <option value="option-1">Option-1</option>
+                    <option value="option-2" selected>Option-2</option>
+                    <option value="option-3">Option-3</option>
+                </select>
+            </div>
+            <label for="gender">User Gender</label>
+            <div class="p-10"  > 
+                <div>
+                    <input type="radio" name="gender" id="male" checked >
+                    <label for="">Male</label> 
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" >
+                    <label for="">Female</label> 
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="other" >
+                    <label for="">other</label> 
+                </div>
+            </div>
+            <label for="hobbies">User Hobbies</label> 
+            <div class="p-10" id="hobbies">
+                <div>
+                <input type="checkbox" name=""  >
+                <label for="">Playing Game</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="" checked >
+                    <label for="">Watching Movie</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="" checked > 
+                    <label for="">Coding</label>
+                </div>
+                
+            </div>
+            <br>
+            <label for="date">Date Selected</label>
+            <input class="input-filed" type="date" name="date" id="date"  value="2023-07-23" required>
+            <br>
+            <label for="class">Class Selected </label>
+            <input class="input-filed" type="number" name="" id="class" value="03" readonly>
+            <br>
+
+            <button class="btn" type="submit">Submit</button>
+            <br>
+
+            <input type="reset" value="Reset" class="btn">
+             
+       
+        </form>
+       
+    </div>
+    
+   
+</body>
+</html>
